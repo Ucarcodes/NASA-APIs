@@ -1,0 +1,594 @@
+{
+	"info": {
+		"_postman_id": "6e1fab8f-b749-422b-92b3-cbf91cd80777",
+		"name": "NASA APIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40163294"
+	},
+	"item": [
+		{
+			"name": "Astronomy Picture of the Day - APOD",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"APOD başarılı şekilde getirildi mu?\", function(){\r",
+							"    pm.response.to.have.status(200);\r",
+							"})"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/planetary/apod?api_key={{API key}}",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"planetary",
+						"apod"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "{{API key}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Asteroids - NeoWs",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"NeoWs başarıyla getirildi mu?\", function(){\r",
+							"    pm.response.to.have.status(200);\r",
+							"})"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/neo/rest/v1/feed?start_date=2024-12-19&end_date=2024-12-26&api_key={{API key}}",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"neo",
+						"rest",
+						"v1",
+						"feed"
+					],
+					"query": [
+						{
+							"key": "start_date",
+							"value": "2024-12-19"
+						},
+						{
+							"key": "end_date",
+							"value": "2024-12-26"
+						},
+						{
+							"key": "api_key",
+							"value": "{{API key}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DONKI - CME",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"DONKI - CME başarıyla getirildi mu?\", function(){\r",
+							"    pm.response.to.have.status(200);\r",
+							"})"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/DONKI/CME?startDate=2024-12-19&endDate=2024-12-26&api_key={{API key}}",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"DONKI",
+						"CME"
+					],
+					"query": [
+						{
+							"key": "startDate",
+							"value": "2024-12-19"
+						},
+						{
+							"key": "endDate",
+							"value": "2024-12-26"
+						},
+						{
+							"key": "api_key",
+							"value": "{{API key}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DONKI - GST",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"DONKI - GST başarıyla getirildi mu?\", function(){\r",
+							"    pm.response.to.have.status(200);\r",
+							"})"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/DONKI/GST?startDate=2024-12-1&endDate=2024-12-26&api_key={{API key}}",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"DONKI",
+						"GST"
+					],
+					"query": [
+						{
+							"key": "startDate",
+							"value": "2024-12-1"
+						},
+						{
+							"key": "endDate",
+							"value": "2024-12-26"
+						},
+						{
+							"key": "api_key",
+							"value": "{{API key}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DONKI - FLR",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"DONKI - FLR başarıyla getirildi mu?\", function(){\r",
+							"    pm.response.to.have.status(200);\r",
+							"})"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/DONKI/FLR?startDate=2024-12-19&endDate=2024-12-26&api_key={{API key}}",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"DONKI",
+						"FLR"
+					],
+					"query": [
+						{
+							"key": "startDate",
+							"value": "2024-12-19"
+						},
+						{
+							"key": "endDate",
+							"value": "2024-12-26"
+						},
+						{
+							"key": "api_key",
+							"value": "{{API key}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DONKI - SEP",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"DONKI - SEP başarıyla getirildi mu?\", function(){\r",
+							"    pm.response.to.have.status(200);\r",
+							"})"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/DONKI/SEP?startDate=2024-12-19&endDate=2024-12-26&api_key={{API key}}",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"DONKI",
+						"SEP"
+					],
+					"query": [
+						{
+							"key": "startDate",
+							"value": "2024-12-19"
+						},
+						{
+							"key": "endDate",
+							"value": "2024-12-26"
+						},
+						{
+							"key": "api_key",
+							"value": "{{API key}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DONKI - MPC",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"DONKI - MPC başarıyla getirildi mu?\", function(){\r",
+							"    pm.response.to.have.status(200);\r",
+							"})"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/DONKI/MPC?startDate=2024-12-19&endDate=2024-12-26&api_key={{API key}}",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"DONKI",
+						"MPC"
+					],
+					"query": [
+						{
+							"key": "startDate",
+							"value": "2024-12-19"
+						},
+						{
+							"key": "endDate",
+							"value": "2024-12-26"
+						},
+						{
+							"key": "api_key",
+							"value": "{{API key}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DONKI - RBE",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"DONKI - RBE başarıyla getirildi mu?\", function(){\r",
+							"    pm.response.to.have.status(200);\r",
+							"})"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/DONKI/RBE?startDate=2024-12-19&endDate=2024-12-26&api_key={{API key}}",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"DONKI",
+						"RBE"
+					],
+					"query": [
+						{
+							"key": "startDate",
+							"value": "2024-12-19"
+						},
+						{
+							"key": "endDate",
+							"value": "2024-12-26"
+						},
+						{
+							"key": "api_key",
+							"value": "{{API key}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DONKI - HSS",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"DONKI - HSS başarıyla getirildi mu?\", function(){\r",
+							"    pm.response.to.have.status(200);\r",
+							"})"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/DONKI/HSS?startDate=2024-12-19&endDate=2024-12-26&api_key={{API key}}",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"DONKI",
+						"HSS"
+					],
+					"query": [
+						{
+							"key": "startDate",
+							"value": "2024-12-19"
+						},
+						{
+							"key": "endDate",
+							"value": "2024-12-26"
+						},
+						{
+							"key": "api_key",
+							"value": "{{API key}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Earth",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Konum görüntüsü başarıyla getirildi mu?\", function(){\r",
+							"    pm.response.to.have.status(200);\r",
+							"})"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/planetary/earth/assets?lon=-95.33&lat=29.78&date=2018-01-01&dim=0.10&api_key={{API key}}",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"planetary",
+						"earth",
+						"assets"
+					],
+					"query": [
+						{
+							"key": "lon",
+							"value": "-95.33"
+						},
+						{
+							"key": "lat",
+							"value": "29.78"
+						},
+						{
+							"key": "date",
+							"value": "2018-01-01"
+						},
+						{
+							"key": "dim",
+							"value": "0.10"
+						},
+						{
+							"key": "api_key",
+							"value": "{{API key}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EPIC",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Epic görüntüsü başarıyla getirildi mu?\", function(){\r",
+							"    pm.response.to.have.status(200);\r",
+							"})"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/EPIC/api/natural/images?api_key={{API key}}",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"EPIC",
+						"api",
+						"natural",
+						"images"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "{{API key}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Open Science Data - Study",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Open Science datası başarıyla getirildi mu?\", function(){\r",
+							"    pm.response.to.have.status(200);\r",
+							"})"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{openScienceURL}}/osdr/data/osd/files/87",
+					"host": [
+						"{{openScienceURL}}"
+					],
+					"path": [
+						"osdr",
+						"data",
+						"osd",
+						"files",
+						"87"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Mars Rover Photo",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Mars rover datası başarıyla getirildi mu?\", function(){\r",
+							"    pm.response.to.have.status(200);\r",
+							"})"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/mars-photos/api/v1/rovers/curiosity/photos?sol=3200&api_key={{API key}}",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"mars-photos",
+						"api",
+						"v1",
+						"rovers",
+						"curiosity",
+						"photos"
+					],
+					"query": [
+						{
+							"key": "sol",
+							"value": "3200"
+						},
+						{
+							"key": "api_key",
+							"value": "{{API key}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

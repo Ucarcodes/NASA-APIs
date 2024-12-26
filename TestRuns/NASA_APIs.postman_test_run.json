@@ -1,0 +1,425 @@
+{
+	"id": "7f8db162-cdc3-40dd-b6d8-de501e3d6046",
+	"name": "NASA APIs",
+	"timestamp": "2024-12-26T12:41:28.822Z",
+	"collection_id": "40163294-6e1fab8f-b749-422b-92b3-cbf91cd80777",
+	"folder_id": 0,
+	"environment_id": "40163294-85783a16-2ad7-4d19-b74e-5214dc1d512f",
+	"totalPass": 13,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-12-26T12:41:13.856Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "02436339-7ce1-4bc9-a88e-f4606618550f",
+			"name": "Astronomy Picture of the Day - APOD",
+			"url": "https://api.nasa.gov/planetary/apod?api_key=",
+			"time": 1183,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"APOD başarılı şekilde getirildi mu?": true
+			},
+			"testPassFailCounts": {
+				"APOD başarılı şekilde getirildi mu?": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1183
+			],
+			"allTests": [
+				{
+					"APOD başarılı şekilde getirildi mu?": true
+				}
+			]
+		},
+		{
+			"id": "855aa52e-5c19-41ee-8dd5-d01f31064450",
+			"name": "Asteroids - NeoWs",
+			"url": "https://api.nasa.gov/neo/rest/v1/feed?start_date=2024-12-19&end_date=2024-12-26&api_key=CEMXoEU4SPTaQgq5Wt0ikC9jThL9ae6Yz7xz1hta",
+			"time": 652,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"NeoWs başarıyla getirildi mu?": true
+			},
+			"testPassFailCounts": {
+				"NeoWs başarıyla getirildi mu?": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				652
+			],
+			"allTests": [
+				{
+					"NeoWs başarıyla getirildi mu?": true
+				}
+			]
+		},
+		{
+			"id": "3add7ce3-9874-4077-b0c6-f56efdf076e1",
+			"name": "DONKI - CME",
+			"url": "https://api.nasa.gov/DONKI/CME?startDate=2024-12-19&endDate=2024-12-26&api_key=CEMXoEU4SPTaQgq5Wt0ikC9jThL9ae6Yz7xz1hta",
+			"time": 2591,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"DONKI - CME başarıyla getirildi mu?": true
+			},
+			"testPassFailCounts": {
+				"DONKI - CME başarıyla getirildi mu?": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2591
+			],
+			"allTests": [
+				{
+					"DONKI - CME başarıyla getirildi mu?": true
+				}
+			]
+		},
+		{
+			"id": "1f09ff12-4b4e-4a1d-8179-ab9e5de4a465",
+			"name": "DONKI - GST",
+			"url": "https://api.nasa.gov/DONKI/GST?startDate=2024-12-1&endDate=2024-12-26&api_key=CEMXoEU4SPTaQgq5Wt0ikC9jThL9ae6Yz7xz1hta",
+			"time": 450,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"DONKI - GST başarıyla getirildi mu?": true
+			},
+			"testPassFailCounts": {
+				"DONKI - GST başarıyla getirildi mu?": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				450
+			],
+			"allTests": [
+				{
+					"DONKI - GST başarıyla getirildi mu?": true
+				}
+			]
+		},
+		{
+			"id": "c33aaa01-a8c5-41f6-b3c1-08676958b81c",
+			"name": "DONKI - FLR",
+			"url": "https://api.nasa.gov/DONKI/FLR?startDate=2024-12-19&endDate=2024-12-26&api_key=CEMXoEU4SPTaQgq5Wt0ikC9jThL9ae6Yz7xz1hta",
+			"time": 1814,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"DONKI - FLR başarıyla getirildi mu?": true
+			},
+			"testPassFailCounts": {
+				"DONKI - FLR başarıyla getirildi mu?": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1814
+			],
+			"allTests": [
+				{
+					"DONKI - FLR başarıyla getirildi mu?": true
+				}
+			]
+		},
+		{
+			"id": "55474d21-c3ec-4aa1-95c6-dceef0020ce8",
+			"name": "DONKI - SEP",
+			"url": "https://api.nasa.gov/DONKI/SEP?startDate=2024-12-19&endDate=2024-12-26&api_key=CEMXoEU4SPTaQgq5Wt0ikC9jThL9ae6Yz7xz1hta",
+			"time": 1720,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"DONKI - SEP başarıyla getirildi mu?": true
+			},
+			"testPassFailCounts": {
+				"DONKI - SEP başarıyla getirildi mu?": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1720
+			],
+			"allTests": [
+				{
+					"DONKI - SEP başarıyla getirildi mu?": true
+				}
+			]
+		},
+		{
+			"id": "2dc6bf24-ffcc-45b6-8345-2df93c207229",
+			"name": "DONKI - MPC",
+			"url": "https://api.nasa.gov/DONKI/MPC?startDate=2024-12-19&endDate=2024-12-26&api_key=CEMXoEU4SPTaQgq5Wt0ikC9jThL9ae6Yz7xz1hta",
+			"time": 454,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"DONKI - MPC başarıyla getirildi mu?": true
+			},
+			"testPassFailCounts": {
+				"DONKI - MPC başarıyla getirildi mu?": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				454
+			],
+			"allTests": [
+				{
+					"DONKI - MPC başarıyla getirildi mu?": true
+				}
+			]
+		},
+		{
+			"id": "dc25c5cd-ccb6-4c78-b9ea-a91470bc6d10",
+			"name": "DONKI - RBE",
+			"url": "https://api.nasa.gov/DONKI/RBE?startDate=2024-12-19&endDate=2024-12-26&api_key=CEMXoEU4SPTaQgq5Wt0ikC9jThL9ae6Yz7xz1hta",
+			"time": 522,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"DONKI - RBE başarıyla getirildi mu?": true
+			},
+			"testPassFailCounts": {
+				"DONKI - RBE başarıyla getirildi mu?": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				522
+			],
+			"allTests": [
+				{
+					"DONKI - RBE başarıyla getirildi mu?": true
+				}
+			]
+		},
+		{
+			"id": "116b7fd7-d986-463d-9603-6e952d14bf77",
+			"name": "DONKI - HSS",
+			"url": "https://api.nasa.gov/DONKI/HSS?startDate=2024-12-19&endDate=2024-12-26&api_key=CEMXoEU4SPTaQgq5Wt0ikC9jThL9ae6Yz7xz1hta",
+			"time": 461,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"DONKI - HSS başarıyla getirildi mu?": true
+			},
+			"testPassFailCounts": {
+				"DONKI - HSS başarıyla getirildi mu?": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				461
+			],
+			"allTests": [
+				{
+					"DONKI - HSS başarıyla getirildi mu?": true
+				}
+			]
+		},
+		{
+			"id": "f73ddddf-ae56-4fce-81b2-22b6e304a3f8",
+			"name": "Earth",
+			"url": "https://api.nasa.gov/planetary/earth/assets?lon=-95.33&lat=29.78&date=2018-01-01&dim=0.10&api_key=CEMXoEU4SPTaQgq5Wt0ikC9jThL9ae6Yz7xz1hta",
+			"time": 672,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Konum görüntüsü başarıyla getirildi mu?": true
+			},
+			"testPassFailCounts": {
+				"Konum görüntüsü başarıyla getirildi mu?": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				672
+			],
+			"allTests": [
+				{
+					"Konum görüntüsü başarıyla getirildi mu?": true
+				}
+			]
+		},
+		{
+			"id": "84be5415-f2c1-4b9b-b50b-316ef7a8c781",
+			"name": "EPIC",
+			"url": "https://api.nasa.gov/EPIC/api/natural/images?api_key=CEMXoEU4SPTaQgq5Wt0ikC9jThL9ae6Yz7xz1hta",
+			"time": 501,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Epic görüntüsü başarıyla getirildi mu?": true
+			},
+			"testPassFailCounts": {
+				"Epic görüntüsü başarıyla getirildi mu?": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				501
+			],
+			"allTests": [
+				{
+					"Epic görüntüsü başarıyla getirildi mu?": true
+				}
+			]
+		},
+		{
+			"id": "81b13f58-6738-44dd-8d31-b34f4150fb4f",
+			"name": "Open Science Data - Study",
+			"url": "https://osdr.nasa.gov/osdr/data/osd/files/87",
+			"time": 990,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Open Science datası başarıyla getirildi mu?": true
+			},
+			"testPassFailCounts": {
+				"Open Science datası başarıyla getirildi mu?": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				990
+			],
+			"allTests": [
+				{
+					"Open Science datası başarıyla getirildi mu?": true
+				}
+			]
+		},
+		{
+			"id": "30aa075b-02bc-4f0f-85d6-fd671ed2aa55",
+			"name": "Mars Rover Photo",
+			"url": "https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=3200&api_key=CEMXoEU4SPTaQgq5Wt0ikC9jThL9ae6Yz7xz1hta",
+			"time": 944,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Mars rover datası başarıyla getirildi mu?": true
+			},
+			"testPassFailCounts": {
+				"Mars rover datası başarıyla getirildi mu?": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				944
+			],
+			"allTests": [
+				{
+					"Mars rover datası başarıyla getirildi mu?": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 12954,
+	"collection": {
+		"requests": [
+			{
+				"id": "02436339-7ce1-4bc9-a88e-f4606618550f",
+				"method": "GET"
+			},
+			{
+				"id": "855aa52e-5c19-41ee-8dd5-d01f31064450",
+				"method": "GET"
+			},
+			{
+				"id": "3add7ce3-9874-4077-b0c6-f56efdf076e1",
+				"method": "GET"
+			},
+			{
+				"id": "1f09ff12-4b4e-4a1d-8179-ab9e5de4a465",
+				"method": "GET"
+			},
+			{
+				"id": "c33aaa01-a8c5-41f6-b3c1-08676958b81c",
+				"method": "GET"
+			},
+			{
+				"id": "55474d21-c3ec-4aa1-95c6-dceef0020ce8",
+				"method": "GET"
+			},
+			{
+				"id": "2dc6bf24-ffcc-45b6-8345-2df93c207229",
+				"method": "GET"
+			},
+			{
+				"id": "dc25c5cd-ccb6-4c78-b9ea-a91470bc6d10",
+				"method": "GET"
+			},
+			{
+				"id": "116b7fd7-d986-463d-9603-6e952d14bf77",
+				"method": "GET"
+			},
+			{
+				"id": "f73ddddf-ae56-4fce-81b2-22b6e304a3f8",
+				"method": "GET"
+			},
+			{
+				"id": "84be5415-f2c1-4b9b-b50b-316ef7a8c781",
+				"method": "GET"
+			},
+			{
+				"id": "81b13f58-6738-44dd-8d31-b34f4150fb4f",
+				"method": "GET"
+			},
+			{
+				"id": "30aa075b-02bc-4f0f-85d6-fd671ed2aa55",
+				"method": "GET"
+			}
+		]
+	}
+}
